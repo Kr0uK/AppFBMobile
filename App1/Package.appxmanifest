@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="fdb8d71a-4e98-49d6-b0d5-48129e692991" Publisher="CN=icfai" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="fdb8d71a-4e98-49d6-b0d5-48129e692991" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="4b791bde-57eb-439e-b12e-fd6637d88a6e" Publisher="CN=icfai" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="4b791bde-57eb-439e-b12e-fd6637d88a6e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>App2</DisplayName>
+    <DisplayName>App1</DisplayName>
     <PublisherDisplayName>icfai</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -14,14 +14,13 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App2.App">
-      <uap:VisualElements DisplayName="LapinFB" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="LapinFB" BackgroundColor="transparent">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App1.App">
+      <uap:VisualElements DisplayName="Test" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Test" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="portrait" />
-          <uap:Rotation Preference="portraitFlipped" />
         </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
